@@ -1,0 +1,14 @@
+__init__ NEDİR?
+__init__, Python’da sınıflarda (class) kullanılan özel bir metottur.
+Bir sınıftan yeni bir nesne (örnek) oluşturduğumuzda, __init__ otomatik olarak çalışır.
+Amacı, nesne ilk oluşurken ona başlangıç değerleri vermektir.
+
+ÖRNEK:
+class Ogrenci:
+    def __init__(self, isim, yas):
+        self.isim = isim
+        self.yas = yas
+
+ogrenci1 = Ogrenci("Ahmet", 20)
+print(ogrenci1.isim)
+print(ogrenci1.yas)
