@@ -1,0 +1,10 @@
+strip() NEDİR?
+Python’da strip() bir string (yazı) metodudur. Bir yazının başındaki ve sonundaki boşlukları temizlemek için kullanılır.
+Yani mesela bir yazının kenarında fazladan boşluklar varsa, strip() onları kesip atar.
+
+ÖRNEK:
+metin = "   Merhaba Dünya!   "
+temiz_metin = metin.strip()
+print(temiz_metin)
+
+#Bu kod çalıştırılınca "Merhaba Dünya!" yazar yani strip() başı ve sonu temizler.
